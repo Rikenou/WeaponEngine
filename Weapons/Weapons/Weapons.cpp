@@ -299,11 +299,9 @@ int main()
 	player = new Player;
 
 	choosePrimWeapon();
-	if(player->primary != NULL)
-		chooseSecWeapon();
+	chooseSecWeapon();
 	choosePrimGrenade();
-	if(player->grenadePrimary != NULL)
-		chooseSecGrenade();
+	chooseSecGrenade();
 
 	while (!Exit) {
 
